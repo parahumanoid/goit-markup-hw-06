@@ -90,9 +90,20 @@ p {
     padding: 16px 0;
     display: inline-block;
 }
+.open-menu-btn {
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 0;
+    border: none;
+}
 @media only screen and (min-width: 768px){
     .page-header .container {
         max-width: 768px;
+    }
+    .nav-items-list {
+        display: flex;
+        gap: 40px;
     }
 }
 @media only screen and (min-width: 1158px){
