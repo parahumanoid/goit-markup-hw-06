@@ -507,12 +507,41 @@ p {
 }
 @media only screen{
     @media (min-width: 768px){
+        .page-footer .container {
+            width: 584px;
+        }
         .footer-wrapper{
             flex-direction: row;
             gap: 24px 72px;
             flex-wrap: wrap;
             justify-items: center;
-            
+
+        }
+        .footer-logo, .footer-social {
+            text-align: left;
+        }
+        .subscription-footerheading {
+            align-self: flex-start;
+        }
+        .subscription-footerform {
+            flex-direction: row;
+            gap: 24px;
+        }
+        .footerform-email {
+            width: 264px;
+        }
+    }
+    @media (min-width: 1158px){
+        .page-footer .container {
+            width: 1128px;
+            padding: 0;
+            gap: 0;
+        }
+        .footer-left {
+            margin-right: 120px;
+        }
+        .footer-right {
+            margin-right: 80px;
         }
     }
 }
