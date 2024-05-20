@@ -2,17 +2,6 @@
     
 }
 
-
-
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    height: 72px;
-}
-
 nav ul {
     display: flex;
     gap: 40px;
@@ -61,29 +50,7 @@ nav li {
     
 }
 
-.address ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 40px;
-}
-
-.address ul li { 
-    display: inline-block; 
-}
-
-.address-link {
-    color:  #434455;
-    font-size: 16px;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address-link:hover,
-.address-link:focus {
-    color: #404BBF;
-} */
+ */
 
 /* .section-header {
     font-weight: 700;
@@ -287,7 +254,7 @@ nav li {
 }
 
 
-.modal-container {
+/* .modal-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -298,13 +265,13 @@ nav li {
     visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-container.is-open {
+} */
+/* .modal-container.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
-.modal-window {
+} */
+/* .modal-window {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -318,8 +285,8 @@ nav li {
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
-}
-.modal-button {
+} */
+/* .modal-button {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -334,17 +301,17 @@ nav li {
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-button:hover,
+} */
+/* .modal-button:hover,
 .modal-button:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
-}
-.modal-button-svg {
+} */
+/* .modal-button-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-paragraph {
+} */
+/* .modal-paragraph {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -352,22 +319,22 @@ nav li {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 16px;
-}
-.formlabel-divcontainer{
+} */
+/* .formlabel-divcontainer{
     margin-bottom: 8px;
-}
-.formlabel-label {
+} */
+/* .formlabel-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
-}
-.formlabel-inputwrap {
+} */
+/* .formlabel-inputwrap {
     position: relative;
-}
-.formlabel-input {
+} */
+/* .formlabel-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -376,22 +343,22 @@ nav li {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.formlabel-input:focus {
+} */
+/* .formlabel-input:focus {
     border: 1px solid #4d5ae5;
-}
-.formlabel-input-icon {
+} */
+/* .formlabel-input-icon {
     fill: #2E2F42;
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.formlabel-input:focus+.formlabel-input-icon {
+} */
+/* .formlabel-input:focus+.formlabel-input-icon {
     fill: #4d5ae5;
-}
-.formlabel-textarea {
+} */
+/* .formlabel-textarea {
     width: 100%;
     height: 120px;
     font-size: 12px;
@@ -405,28 +372,28 @@ nav li {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.formlabel-textarea:focus {
+} */
+/* .formlabel-textarea:focus {
     border-color: #4D5AE5;
-}
-.formcomment-divcontainer {
+} */
+/* .formcomment-divcontainer {
     margin-bottom: 16px;
-}
-.formagreement-divcontainer{
+} */
+/* .formagreement-divcontainer{
     margin-bottom: 24px;
-}
-.formagreement-inputcheckbox:checked+.formagreement-label .formagreement-labelspan {
+} */
+/* .formagreement-inputcheckbox:checked+.formagreement-label .formagreement-labelspan {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
-}
-.formagreement-label {
+} */
+/* .formagreement-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-}
-.formagreement-labelspan {
+} */
+/* .formagreement-labelspan {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -437,11 +404,11 @@ nav li {
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
-}
-.formagreement-labelspanurl {
+} */
+/* .formagreement-labelspanurl {
     color: #4d5ae5;
-}
-.formlabel-buttonsend {
+} */
+/* .formlabel-buttonsend {
     display: block;
     border-radius: 4px;
     min-width: 169px;
@@ -458,8 +425,8 @@ nav li {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: auto;
     margin-right: auto;
-}
-.formlabel-buttonsend:hover,
+} */
+/* .formlabel-buttonsend:hover,
 .formlabel-buttonsend:focus {
     background-color: #404BBF;
-}
+} */
